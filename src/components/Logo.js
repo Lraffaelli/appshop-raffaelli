@@ -1,24 +1,13 @@
 import Logotipo from "../img/logo.png";
-const styles={
-    logo:{
-        display:'flex',
-        flexDirection:'row',
-        alignItems:'center',
-        
-    },
-    img:{
-        width: '60px',
-        height: '60px',
-        marginRight: '10px',     
-    }
+import { DivLogo } from "../styled-component/DivLogo";
+import { ImgLogo } from "../styled-component/ImgLogo";
 
-}
 const Logo = () => {
   return (
-    <div style={styles.logo}>
-      <img src={Logotipo} alt="Logotipo" style={styles.img}/>
+    <DivLogo>
+      <ImgLogo src={Logotipo} alt="Logotipo" />
       <h1>AppShop</h1>
-    </div>
+    </DivLogo>
   );
 };
 export default Logo;
