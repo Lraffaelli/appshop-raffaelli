@@ -9,7 +9,6 @@ const NavBar = () => {
         <Alink href="#">Productos</Alink>
         <Alink href="#">New Arrived</Alink>
         <Alink href="#">Contacto</Alink>
-
     </Nav>
   )
 }
