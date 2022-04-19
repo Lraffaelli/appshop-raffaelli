@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const Alink = styled.a`
+display: flex;
   text-decoration: none;
   color: #000;
-  margin: 0 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  transition: all 0.3s;
+  margin: 40px 25px;
+  padding: 22px 0;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 14px;
+
 
   &:hover {
-    background-color: #4895ef;
-    color: #fff;
-    padding: 5px 10px ;
-    border-radius: 20px;
-    margin:10px;
+    color: #005f73;
+    border-bottom: 2px solid #005f73;    
+    
   }
 `;

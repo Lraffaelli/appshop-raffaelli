@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import NavBar from "./NavBar";
 import { HeaderNav } from "../styled-component/HeaderNav";
+import CartWidget from "./CartWidget";
 
 
 const Header = () => {
@@ -8,6 +9,7 @@ const Header = () => {
     <HeaderNav>
       <Logo/>
       <NavBar/>
+      <CartWidget/>
     </HeaderNav>
   );
 };
