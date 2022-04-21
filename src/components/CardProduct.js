@@ -1,6 +1,11 @@
+import Counter from "./Counter"
+
 const CardProduct = () => {
+  
   return (
-    <p>Hola producto</p>
+    <Counter init={0} />
+   
+    
   )
 }
 export default CardProduct

@@ -5,10 +5,10 @@ import { Alink } from "../styled-component/Alink"
 const NavBar = () => {
   return (
     <Nav>
-        <Alink href="#">Home</Alink>
-        <Alink href="#">Productos</Alink>
-        <Alink href="#">New Arrived</Alink>
-        <Alink href="#">Contacto</Alink>
+        <Alink ><a href="#">Home</a></Alink>
+        <Alink ><a href="#">Productos</a></Alink>
+        <Alink ><a href="#">New Arrived</a></Alink>
+        <Alink ><a href="#">Contacto </a></Alink>
     </Nav>
   )
 }
