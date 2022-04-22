@@ -1,8 +1,9 @@
 import { CounterStyle } from "../styled-component/Counter.style";
 import { useState } from "react";
-const Counter = ({ init }) => {
+const Counter = ({ init, stock }) => {
   const [count, setCount] = useState(init);
-  const handleIncrement = () => setCount(count + 1);
+  const handleIncrement = () => {
+    count < stock ? setCount(count + 1): setCount(stock)};
   const handleDecrement = () => {
     count > 0 ? setCount(count - 1) : setCount(0);
   };
