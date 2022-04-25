@@ -8,6 +8,11 @@ export const CounterStyle = styled.div`
   padding: 10px;
   border-radius: 5px;
   background-color: #f5f3f4;
+
+  .stock{
+    font-size: 0.7rem;
+    color: #6b0101;
+}
   
   .counter {
       display: flex;
