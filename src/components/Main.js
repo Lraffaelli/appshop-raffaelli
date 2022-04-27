@@ -1,5 +1,6 @@
 import ListProduct from "./ListProduct";
-const items = [
+import { useEffect, useState } from "react";
+const productosIniciales = [
   {
     id: 1,
     name: "Producto 1",
@@ -44,7 +45,27 @@ const items = [
   },
 ];
 
+
 const Main = () => {
-  return <ListProduct title="Listado de Productos" items={items} />;
+  
+  const [productos, setProductos] = useState([])
+
+useEffect(() => {
+  const getDatos = new Promise((res,)=>{
+      setTimeout(()=>{
+        res(productosIniciales)
+      },2000)
+    })
+  
+  getDatos
+    .then(()=>{
+     setProductos(productosIniciales)
+     console.log(productosIniciales)
+    })
+ 
+}, []);
+
+
+    return( <ListProduct title="Listado de Productos" productos={productos} />)
 };
 export default Main;
