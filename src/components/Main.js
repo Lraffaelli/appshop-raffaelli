@@ -1,8 +1,12 @@
-import ItemListContainer from "./ItemListContainer"
+import ItemDetaliContainer from "./ItemDetaliContainer";
+import ItemListContainer from "./ItemListContainer";
 
 const Main = () => {
   return (
-    <ItemListContainer/>
-  )
-}
-export default Main
+    <>
+      <ItemListContainer />
+      <ItemDetaliContainer/>
+    </>
+  );
+};
+export default Main;
