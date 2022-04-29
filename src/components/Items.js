@@ -1,7 +1,7 @@
 import Counter from "./Counter";
 import { CardItem } from "../styled-component/CardItem.style";
 
-const CardProduct = ({ item }) => {
+const Items = ({ item }) => {
   return (
     <CardItem>
       <img src={item.image} alt={item.id} />
@@ -9,8 +9,9 @@ const CardProduct = ({ item }) => {
       <p className="price">
         Precio: <span>${item.price}</span>
       </p>
+        <button className="btnDetalle">Ver mas...</button>
       <Counter init={0} stock={item.stock} />
     </CardItem>
   );
 };
-export default CardProduct;
+export default Items;
