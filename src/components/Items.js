@@ -1,7 +1,9 @@
 import Counter from "./Counter";
 import { CardItem } from "../styled-component/CardItem.style";
+import { Link } from "react-router-dom"
 
-const Items = ({ item }) => {
+
+const Items = ({ item,handleDetail }) => {
   return (
     <CardItem>
       <img src={item.image} alt={item.id} />
@@ -9,7 +11,7 @@ const Items = ({ item }) => {
       <p className="price">
         Precio: <span>${item.price}</span>
       </p>
-        <button className="btnDetalle">Ver mas...</button>
+        <Link to={`/producto/${item.id}`} value={item.id} className="btnDetalle" onClick={handleDetail}>Ver detalle</Link>
       <Counter init={0} stock={item.stock} />
     </CardItem>
   );

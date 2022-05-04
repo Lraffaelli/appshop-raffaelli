@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const CardItem = styled.div`
 display: flex;
@@ -23,13 +24,15 @@ flex-direction: column;
   }
   .btnDetalle{
     background-color: #43aa8b;
-    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
     border: none;
     padding: 5px 10px;
     border-radius: 10px;
     color: #fff;
-    margin-bottom: 5px;
-    width: 50%;
+    margin-bottom: 5px;    
     align-self: center;
     cursor: pointer;
   }
