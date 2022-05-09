@@ -1,50 +1,121 @@
 [
-    {
-        "id": 1,
-        "name": "Producto 1",
-        "price": 100,
-        "stock": 9,
-        "image": "/productos/item_1.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 130,
-        "stock": 5,
-        "image": "/productos/item_2.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    },
-    {
-        "id": 3,
-        "name": "Producto 3",
-        "price": 90,
-        "stock": 10,
-        "image": "/productos/item_3.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    },
-    {
-        "id": 4,
-        "name": "Producto 4",
-        "price": 125,
-        "stock": 7,
-        "image": "/productos/item_4.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    },
-    {
-        "id": 5,
-        "name": "Producto 5",
-        "price": 133,
-        "stock": 4,
-        "image": "/productos/item_5.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    },
-    {
-        "id": 6,
-        "name": "Producto 6",
-        "price": 176,
-        "stock": 8,
-        "image": "/productos/item_6.png",
-        "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,"
-    }
+  {
+    "id": 1,
+    "cantidad":1,
+    "name": "Producto 1",
+    "price": 100,
+    "stock": 9,
+    "image": "/productos/item_1.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos"  },
+  {
+    "id": 2,
+    "cantidad":1,
+    "name": "Producto 2",
+    "price": 130,
+    "stock": 5,
+    "image": "/productos/item_2.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos" 
+  },
+  {
+    "id": 3,
+    "cantidad":1,
+    "name": "Producto 3",
+    "price": 90,
+    "stock": 10,
+    "image": "/productos/item_3.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos" 
+  },
+  {
+    "id": 4,
+    "cantidad":1,
+    "name": "Producto 4",
+    "price": 125,
+    "stock": 7,
+    "image": "/productos/item_4.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos" 
+  },
+  {
+    "id": 5,
+    "cantidad":1,
+    "name": "Producto 5",
+    "price": 133,
+    "stock": 4,
+    "image": "/productos/item_5.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos" 
+  },
+  {
+    "id": 6,
+    "cantidad":1,
+    "name": "Producto 6",
+    "price": 176,
+    "stock": 8,
+    "image": "/productos/item_6.png",
+    "detail": "FREIDORA DE AIRE SIN ACEITE DE 1,8 LITROS OSTER AF18M CON SUPERFICIE ANTIADHERENTE OSCKSTAF18M Nueva airfryer digital con gran capacidad! Cociná lo que vos quieras: casero, rico, fácil, creativo ¡y en poco minutos! Destapá toda la creatividad y convertí a la Airfryer Oster® en esa aliada que nos ayuda a preparar infinidad de recetas. La freidora de aire cuenta con una perilla de control de temperatura y un temporizador ajustable de hasta 60 minutos,",
+    "category": "electronicos" 
+  },
+  {
+    "id": 7,
+    "cantidad":1,
+    "name": "Producto 7",
+    "price": 453,
+    "stock": 4,
+    "image": "/productos/item_7.jpg",
+    "detail": "lorem",
+    "category": "ropa" 
+  },
+  {
+    "id": 8,
+    "cantidad":1,
+    "name": "Producto 8",
+    "price": 278,
+    "stock": 7,
+    "image": "/productos/item_8.jpg",
+    "detail": "lorem",
+    "category": "ropa" 
+  },
+  {
+    "id": 9,
+    "cantidad":1,
+    "name": "Producto 9",
+    "price": 298,
+    "stock": 6,
+    "image": "/productos/item_9.jpg",
+    "detail": "lorem",
+    "category": "ropa" 
+  },
+  {
+    "id": 10,
+    "cantidad":1,
+    "name": "Producto 10",
+    "price": 145,
+    "stock": 8,
+    "image": "/productos/item_10.jpg",
+    "detail": "lorem",
+    "category": "alimentos" 
+  },
+  {
+    "id": 11,
+    "cantidad":1,
+    "name": "Producto 11",
+    "price": 312,
+    "stock": 6,
+    "image": "/productos/item_11.jpg",
+    "detail": "lorem",
+    "category": "alimentos" 
+  },
+  {
+    "id": 12,
+    "cantidad":1,
+    "name": "Producto 12",
+    "price": 157,
+    "stock": 9,
+    "image": "/productos/item_12.jpg",
+    "detail": "lorem",
+    "category": "alimentos" 
+  }
 ]
