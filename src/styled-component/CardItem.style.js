@@ -10,6 +10,7 @@ flex-direction: column;
   border-radius: 5px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
   transition: 300ms ease-in-out;
+  background-color: #fff;
   h3 {
     font-size: 1rem;
     color: #444;

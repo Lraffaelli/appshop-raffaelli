@@ -8,10 +8,10 @@ export const Alink = styled.li`
   
   a {
     text-decoration: none;
-    color: #000;
+    color: #333;
 
     &:hover {
-      color: #005f73;
+      color: #fff;
       
       /* border-bottom: 2px solid #005f73; */
     }

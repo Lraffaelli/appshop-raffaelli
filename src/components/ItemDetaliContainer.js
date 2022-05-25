@@ -1,7 +1,14 @@
 import ItemDetails from "./ItemDetails";
 import { useState, useEffect } from "react";
-import productosIniciales from "../productosIniciales.json";
+//import productosIniciales from "../productosIniciales.json";
 import { useParams } from "react-router-dom";
+import { db } from "./Firebase";
+import {
+  collection,
+  getDoc,
+  doc,  
+} from "firebase/firestore";
+
 const ItemDetaliContainer = () => {
   const [cargando, setCargando] = useState(true);
   const [producto, setProducto] = useState([]);
@@ -9,7 +16,22 @@ const ItemDetaliContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    const result = productosIniciales.filter((producto) => {
+    const productosCollection = collection(db, "productos");
+    const docResult = doc(productosCollection, id);
+    const consulta = getDoc(docResult);
+
+    consulta
+      .then((resultado) => {
+        const producto = resultado.data();
+        //console.log(producto);
+
+        setProducto(producto);
+        setCargando(false);
+      })
+      .catch((error) => {console.log(error)})
+      .finally(() => {});
+
+    /* const result = productosIniciales.filter((producto) => {
       return producto.id == id;
     })[0];
 
@@ -20,8 +42,8 @@ const ItemDetaliContainer = () => {
     });
     getDetail.then(() => {
       setProducto(result);
-      setCargando(false)
-    });
+      setCargando(false);
+    }); */
   }, []);
 
   if (cargando) {

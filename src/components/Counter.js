@@ -2,7 +2,10 @@ import { CounterStyle } from "../styled-component/Counter.style";
 import { useState } from "react";
 
 
+
 const Counter = ({ init, stock }) => {
+  
+  
   const [count, setCount] = useState(init);
   const handleIncrement = () => {
     count < stock ? setCount(count + 1) : setCount(stock);
@@ -12,7 +15,7 @@ const Counter = ({ init, stock }) => {
   };
   const handleStock = () =>{
   const result = stock - count;
-  return result
+  return result;
   };
   
   return (
@@ -23,7 +26,7 @@ const Counter = ({ init, stock }) => {
         <p>{count}</p>
         <button onClick={handleIncrement}>+</button>
       </div>
-      <button className="btn-add">Agregar al Carro</button>
+      
     </CounterStyle>
   );
 };

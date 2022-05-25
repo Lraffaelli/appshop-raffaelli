@@ -8,4 +8,5 @@ export const HeaderNav = styled.header`
   height: 70px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0 20px;
+  background-color:#3a86ff;
 `;

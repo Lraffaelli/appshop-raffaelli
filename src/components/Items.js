@@ -11,8 +11,8 @@ const Items = ({ item,handleDetail }) => {
       <p className="price">
         Precio: <span>${item.price}</span>
       </p>
-        <Link to={`/producto/${item.id}`} value={item.id} className="btnDetalle" onClick={handleDetail}>Ver detalle</Link>
-      <Counter init={0} stock={item.stock} />
+        <Link to={`/producto/${item.id}`} className="btnDetalle" onClick={handleDetail}>Ver detalle</Link>
+      {/* <Counter init={0} stock={item.stock} /> */}
     </CardItem>
   );
 };
