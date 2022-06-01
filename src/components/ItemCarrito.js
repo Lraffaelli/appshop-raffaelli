@@ -10,7 +10,7 @@ const ItemCarrito = ({ producto }) => {
         <h3>{producto.name}</h3>
         <p>{producto.cantidad}</p>
         <p>{producto.price}</p>
-        <button onClick={eliminarProducto}>eliminar</button>
+        <button onClick={()=>eliminarProducto(producto)}>eliminar</button>
       </div>
     </Container>
   );

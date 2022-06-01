@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 
 
 const Items = ({ item,handleDetail }) => {
+ 
   return (
     <CardItem>
       <img src={item.image} alt={item.id} />

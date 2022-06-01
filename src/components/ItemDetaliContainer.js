@@ -3,11 +3,7 @@ import { useState, useEffect } from "react";
 //import productosIniciales from "../productosIniciales.json";
 import { useParams } from "react-router-dom";
 import { db } from "./Firebase";
-import {
-  collection,
-  getDoc,
-  doc,  
-} from "firebase/firestore";
+import { collection, getDoc, doc } from "firebase/firestore";
 
 const ItemDetaliContainer = () => {
   const [cargando, setCargando] = useState(true);
@@ -23,12 +19,14 @@ const ItemDetaliContainer = () => {
     consulta
       .then((resultado) => {
         const producto = resultado.data();
-        //console.log(producto);
-
+        producto.id = resultado.id;
         setProducto(producto);
         setCargando(false);
+
       })
-      .catch((error) => {console.log(error)})
+      .catch((error) => {
+        console.log(error);
+      })
       .finally(() => {});
 
     /* const result = productosIniciales.filter((producto) => {
